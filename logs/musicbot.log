@@ -1,0 +1,22 @@
+[44.973611832] 2018-12-25 21:45:41,738 - INFO - launcher: Starting sanity checks
+[44.973611832] 2018-12-25 21:45:41,738 - INFO - launcher: Checking for Python 3.5+
+[44.973611832] 2018-12-25 21:45:41,738 - INFO - launcher: Checking console encoding
+[45.971870422] 2018-12-25 21:45:41,739 - INFO - launcher: Setting console encoding to UTF-8
+[45.971870422] 2018-12-25 21:45:41,739 - INFO - launcher: Ensuring we're in the right environment
+[47.969818115] 2018-12-25 21:45:41,741 - INFO - launcher: Adding local bins/ folder to path
+[1442.111730576] 2018-12-25 21:45:43,135 - INFO - launcher: Required checks passed.
+[1443.112134933] 2018-12-25 21:45:43,136 - INFO - launcher: Optional checks passed.
+[1443.112134933] 2018-12-25 21:45:43,136 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1472.092866898] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "run.py", line 367, in main
+    from musicbot import MusicBot
+  File "C:\Users\user\Desktop\Discord Bots\MusicBot success\musicbot\__init__.py", line 74, in <module>
+    from .bot import MusicBot
+  File "C:\Users\user\Desktop\Discord Bots\MusicBot success\musicbot\bot.py", line 28, in <module>
+    from . import downloader
+ImportError: cannot import name 'downloader'
+[1497.077465057] launcher-INFO: Attempting to install dependencies...
