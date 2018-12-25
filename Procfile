@@ -1,1 +1,1 @@
-worker: python musicbot/entry.py
+worker: python musicbot/lib/event_emitter.py
