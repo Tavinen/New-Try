@@ -1,1 +1,1 @@
-worker: python musicbot/json.py
+worker: python musicbot/__init__.py
