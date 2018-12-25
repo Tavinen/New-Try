@@ -1,1 +1,1 @@
-worker: python musicbot/exceptions.py
+worker: python musicbot/entry.py
