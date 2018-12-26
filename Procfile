@@ -1,1 +1,1 @@
-worker: config/options.ini
+worker: python run.py
